@@ -6,14 +6,13 @@ body, html {
 }
 
 .contenedor {
-    position: relative;
+    display: flex;
+    flex-direction: column;
     height: 100%;
+    align-items: flex-end; 
 }
 
 .caja {
-    position: absolute;
-    top: 0;
-    right: 0;
     width: 250px;
     height: 33.33%;
     display: flex;
@@ -24,15 +23,13 @@ body, html {
 }
 
 .caja-1 {
-    background-color: #ff6347; /* Rojo */
+    background-color: #ff6347; 
 }
 
 .caja-2 {
-    background-color: #00bfff; /* Azul */
-    top: 33.33%;
+    background-color: #00bfff; 
 }
 
 .caja-3 {
-    background-color: #7fff00; /* Verde */
-    top: 66.66%;
+    background-color: #7fff00;
 }
